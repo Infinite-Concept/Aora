@@ -11,7 +11,6 @@ import {
   TouchableOpacity,
   ScrollView,
 } from "react-native";
-
 import { icons } from "../../constants";
 import { createVideoPost } from "../../lib/appwrite";
 import { CustomButton, FormField } from "../../components";

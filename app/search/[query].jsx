@@ -2,7 +2,6 @@ import { useEffect } from "react";
 import { useLocalSearchParams } from "expo-router";
 import { View, Text, FlatList } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
-
 import useAppwrite from "../../lib/useAppwrite";
 import { searchPosts } from "../../lib/appwrite";
 import { EmptyState, SearchInput, VideoCard } from "../../components";
