@@ -34,8 +34,8 @@ const Home = () => {
             title={item.title}
             thumbnail={item.thumbnail}
             video={item.video}
-            creator={item.creator.username}
-            avatar={item.creator.avatar}
+            users={item.users.username}
+            avatar={item.users.avatar}
           />
         )}
         ListHeaderComponent={() => (
@@ -46,7 +46,7 @@ const Home = () => {
                   Welcome Back
                 </Text>
                 <Text className="text-2xl font-psemibold text-white">
-                  JSMastery
+                  {posts[0]?.users?.username}
                 </Text>
               </View>
 

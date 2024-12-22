@@ -15,7 +15,9 @@ const TabIcon = ({ icon, color, name, focused }) => {
         className="w-6 h-6"
       />
       <Text
-        className={`${focused ? "font-psemibold" : "font-pregular"} text-xs`}
+        className={`${
+          focused ? "font-psemibold" : "font-pregular"
+        } text-xs w-full`}
         style={{ color: color }}
       >
         {name}
@@ -40,7 +42,8 @@ const TabLayout = () => {
             backgroundColor: "#161622",
             borderTopWidth: 1,
             borderTopColor: "#232533",
-            height: 84,
+            height: 74,
+            paddingTop: 13,
           },
         }}
       >
